@@ -5,6 +5,7 @@ import { GoHome, GoSearch } from "react-icons/go";
 import { IoNotificationsOutline } from "react-icons/io5";
 import { MdOutlineMail, MdOutlineBookmarkBorder } from "react-icons/md";
 import { HiOutlineUser } from "react-icons/hi2";
+import Button from "./Button";
 
 const sidebarMenuItems: TwitterSiderbarButton[] = [
   {
@@ -57,6 +58,9 @@ const Sidebar = () => {
             </li>
           ))}
         </ul>
+        <div className="mt-10 w-60">
+          <Button>Post</Button>
+        </div>
       </div>
     </div>
   );
