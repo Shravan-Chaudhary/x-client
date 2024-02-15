@@ -5,7 +5,7 @@ import React from "react";
 const GoogleLoginButton = () => {
   return (
     <button>
-      <GoogleLogin onSuccess={() => {}} />
+      <GoogleLogin onSuccess={(cred) => {}} />
     </button>
   );
 };
